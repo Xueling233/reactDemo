@@ -1,12 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import  ReactDOM from 'react-dom'
+//自定义组件第一个字母要大写否则报错
+// import App from './App'
+import Xiaojiejie from './Xiaojiejie.js'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//JSX  javascript and xml  <  html  {} js
+ReactDOM.render(<Xiaojiejie />,document.getElementById('root'))
